@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 
-// Credenciales en formato estricto detectables por GitHub
 const AWS_ACCESS_KEY = "AKIAIOSFODNN7EXAMPLE";
 const AWS_SECRET_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
 
