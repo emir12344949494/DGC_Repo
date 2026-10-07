@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 
 // ERROR CRÍTICO: Credencial expuesta en el código fuente
+// Este API key es ficticio 
 const AWS_SECRET_KEY = "AKIAIOSFODNN7EXAMPLE";
 const DATABASE_URL = "postgres://admin:Password123!@localhost:5432/mydb";
 
