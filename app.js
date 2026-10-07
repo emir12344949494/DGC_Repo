@@ -1,7 +1,8 @@
 const express = require('express');
 const app = express();
 
-// Token Dummy con el prefijo oficial ghp_ que GitHub detecta obligatoriamente
-const GITHUB_TOKEN = "ghp_1234567890abcdefghijklmnopqrstuvwxyz1234";
+// Credenciales en formato estricto detectables por GitHub
+const AWS_ACCESS_KEY = "AKIAIOSFODNN7EXAMPLE";
+const AWS_SECRET_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
 
-app.listen(3000, () => console.log('Servidor corriendo'));
+app.listen(3000, () => console.log('Servidor en ejecución'));
